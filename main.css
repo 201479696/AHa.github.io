@@ -18,6 +18,9 @@ h2.green {
 p.white {
 	color: white;
 }
+h3.purple {
+	color: purple;
+}
 div.header{
             background-color: black;
             color: white;
@@ -49,6 +52,6 @@ ol.section {
 	line-height: 20px;
 	text-decoration: underline;
 }
-div strong {
+strong {
 	color: red;
 }
