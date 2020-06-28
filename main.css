@@ -20,6 +20,7 @@ p.white {
 }
 h3.purple {
 	color: purple;
+    text-decoration: blink;
 }
 div.header{
             background-color: black;
@@ -76,4 +77,8 @@ ol.section {
 }
 strong {
 	color: red;
+    text-decoration: line-through;
+}
+a {
+    text-decoration: none;
 }
