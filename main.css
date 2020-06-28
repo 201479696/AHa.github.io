@@ -10,6 +10,12 @@
 h1.green {
 	color: green;
 	text-align: center;
+    text-shadow: 5px 5px 5px #FF0000;
+    transform: rotate(10deg);
+    transition: transform 2s;
+}
+h1.green:hover {
+    transform: rotate(30deg);
 }
 h2.green {
 	color: green;
@@ -69,6 +75,10 @@ div.gif2 {
     width: 250px;
     float: right;
     text-align: center;
+    box-shadow: 10px 10px 5px #888888;
+    border-image: url(img/000.jpg) 30 30 stretch;
+    border: 15px solid transparent;
+    border-radius: 25px;
 }
 ol.section {
 	color: yellow;
