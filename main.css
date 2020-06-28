@@ -47,6 +47,28 @@ div.footer {
             text-align: center;
             padding: 10px;
         }
+div.rightside {
+    background: #eeeeee;
+    height: 300px;
+    width: 600px;
+    float: right;
+    padding: 10px;
+    line-height: 20px;
+}
+img.gif1 {
+    margin: 3px;
+    height: 300px;
+    width: 300px;
+    float: left;
+    text-align: center;
+}
+img.gif2 {
+    margin: 3px;
+    height: 300px;
+    width: 200px;
+    float: right;
+    text-align: center;
+}
 ol.section {
 	color: yellow;
 	line-height: 20px;
