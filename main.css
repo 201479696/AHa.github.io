@@ -55,14 +55,14 @@ div.rightside {
     padding: 10px;
     line-height: 20px;
 }
-img.gif1 {
+div.gif1 {
     margin: 3px;
     height: 300px;
     width: 300px;
     float: left;
     text-align: center;
 }
-img.gif2 {
+div.gif2 {
     margin: 3px;
     height: 300px;
     width: 250px;
