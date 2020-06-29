@@ -7,6 +7,9 @@
 	color: yellow;
 	text-align: center;
 }
+#grayfilter {
+    filter: grayscale(100%);
+}
 h1.green {
 	color: green;
 	text-align: center;
