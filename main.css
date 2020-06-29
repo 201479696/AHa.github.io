@@ -80,7 +80,7 @@ div.gif2 {
     box-shadow: 10px 10px 5px #888888;
     border-image: url(img/000.jpg) 30 30 stretch;
     border: 15px solid transparent;
-    border-radius: 25px;
+    border-radius: 15%;
 }
 ol.section {
 	color: yellow;
@@ -99,6 +99,7 @@ a {
 }
 button.button {
     background-color: #4CAF50;
+    background-image: linear-gradient(to right,green,yellow);
     border: none;
     color: white;
     text-align: center;
@@ -115,4 +116,7 @@ button.button1:hover {
 div.Button1 {
     margin: auto;
     width: 30%;
+}
+#Bggray {
+    filter: grayscale(100%);
 }
