@@ -1,12 +1,12 @@
+var element=document.getElementById('Bggray');
 function MyBgcolor()
 		{
-			var element=document.getElementById('Bggray')
-			if (element.type.filter.=="grayscale(100%)")
+			if (element.style.filter.=="grayscale(100%)")
 			{
-				element.type.filter="none";
+				element.style.filter="none";
 			}
 			else
 			{
-				element.type.filter="grayscale(100%)";
+				element.style.filter="grayscale(100%)";
 			}
 		}
