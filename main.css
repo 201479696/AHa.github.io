@@ -11,11 +11,10 @@ h1.green {
 	color: green;
 	text-align: center;
     text-shadow: 5px 5px 5px #FF0000;
-    transform: rotate(10deg);
-    transition: transform 2s;
+    transition: transform 4s;
 }
 h1.green:hover {
-    transform: rotate(30deg);
+    transform: rotate(10deg);
 }
 h2.green {
 	color: green;
@@ -91,4 +90,7 @@ strong {
 }
 a {
     text-decoration: none;
+}
+@keyframes myfirst {
+    from {background: }
 }
