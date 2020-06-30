@@ -1,8 +1,3 @@
-#main-content {
-  font-size: 36px;
-  font-weight: bold;
-  padding: 16px;
-}
 #yellow {
 	color: yellow;
 	text-align: center;
@@ -117,6 +112,6 @@ div.Button1 {
     margin: auto;
     width: 30%;
 }
-#Bggray {
+html.BgGray {
     filter: grayscale(100%);
 }
