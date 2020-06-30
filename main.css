@@ -18,6 +18,15 @@ h2.green {
 	color: green;
 	text-align: center;
 }
+h1.blue {
+    color: blue;
+}
+div.smile {
+    background-color: white;
+    width: 400px;
+    position: fixed;
+    text-align: center;
+}
 p.white {
 	color: white;
 }
@@ -72,10 +81,12 @@ div.gif2 {
     width: 250px;
     float: right;
     text-align: center;
-    box-shadow: 10px 10px 5px #888888;
-    border-image: url(img/000.jpg) 30 30 stretch;
     border: 15px solid transparent;
     border-radius: 15%;
+}
+img.Change {    
+    width: 250px;
+    border-radius: 50%;
 }
 ol.section {
 	color: yellow;

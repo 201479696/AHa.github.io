@@ -14,4 +14,10 @@ window.onload = function(){
     		$("div.Button1").mouseup(function(){
     			$("html").addClass("BgGray");
     		});
+    		$("h1.blue").click(function(){
+    			$("div.smile").animate({right:'8px'},3000);
+    		});
+    		$("div.gif2").click(function(){
+    			$("img.Change").fadeToggle(3000);
+    		});
 };
